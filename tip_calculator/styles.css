@@ -1,0 +1,87 @@
+html{
+  font-size:10px;
+  color:#4e4d4d;
+  font-family: 'Noto Sans';
+}
+
+main{
+  max-width:50rem;
+  margin:2rem auto;
+  background:linear-gradient(30deg,#3dc0c0,#5bceae);
+  border-radius: 10px;
+  border: 4px solid black;
+  padding:3rem 1.6rem 6rem 1.6rem;
+  box-shadow:2px 4px 5px lightgray;
+}
+
+h1{
+  text-align: center;
+  padding-bottom:3rem;
+  margin:0;
+  font-size:3rem;
+}
+
+section{
+  background:white;
+  font-size:1.8rem;
+  padding:0rem 1.6rem;
+  margin-bottom:2rem;
+  border-radius:2rem;
+  box-shadow: inset 0 3px 3px lightgray;
+}
+
+section div{
+  padding:1.6rem 0;
+}
+
+.yourbill{
+  display: flex;
+}
+.yourbill label{
+  flex: 1;
+  align-self: center;
+}
+
+.yourbill input{
+  flex:3;
+}
+
+input[type="number"]{
+  font-family:'Noto Sans';
+  background:#f4f4f5;
+  font-size:1.6rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding:0.8rem 0 0.8rem 0.8rem;
+  box-shadow: inset 0 2px 2px lightgray;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.total{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.range{
+  -webkit-appearance:none;
+  width:100%;
+  background-color:#eee;
+  margin-top: 1.2rem;
+  border-radius:0.3rem;
+  outline-color:#5bceae;
+}
+
+.range::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background-color: #3dc0c0;
+  cursor: pointer;
+
+
+}
